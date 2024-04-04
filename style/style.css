@@ -186,15 +186,15 @@ body {
 /* succesfull section start from here  */
 .student-cintainer {
     width: 1320px;
-    height: 800px;
-    margin: 60px auto;
+    height: 740px;
+    margin: 0 auto;
 }
 
 .student-heading {
     flex-direction: column;
     width: 549px;
     height: 120px;
-    margin-top: 80px;
+    margin-top: 130px;
 }
 
 .student-heading h1 {
@@ -217,3 +217,23 @@ body {
 }
 
 /* succesfull section end from here  */
+
+
+
+/* Frequently Asked Questions section start from here */
+.accordion{
+    margin: 10px 90px;
+}
+
+.accordian-heading{
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.accordion-text-description{
+    color: black;
+    text-align: justify;
+   
+}
+
+/* Frequently Asked Questions section end from here */
