@@ -2,7 +2,8 @@ body {
     font-family: "Poppins", sans-serif;
 }
 
-.navbar-section{
+/* nav section start */
+.navbar-section {
     margin-top: 15px;
 }
 
@@ -16,3 +17,24 @@ body {
     margin-left: 300px;
     gap: 30px;
 }
+
+/* nav section end */
+
+
+/* banner section start */
+.b-img {
+    height: 680px;
+    object-fit: cover;
+}
+
+.carousel-text-container {
+    margin-bottom: 160px;
+}
+
+.carousel-text-h1 {
+    font-size: 65px;
+    font-weight: 600;
+    line-height: 85px;
+    text-align: center;
+}
+/* banner section end */
