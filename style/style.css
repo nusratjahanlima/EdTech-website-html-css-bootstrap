@@ -141,8 +141,54 @@ body {
     margin-top: 10px;
 }
 
-.explore-btn{
+.explore-btn {
     margin-top: 10px;
 }
 
 /* Explore The elearning Institute section end here */
+
+
+
+/* Ready to join start from here */
+.ready-to-join-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    width: 1320px;
+    height: 230px;
+    background-color: #289BDE;
+}
+
+.ready-to-join-text {
+    margin-top: 160px;
+    margin: 100px;
+    color: white;
+}
+
+
+.ready-to-join-text h3 {
+    font-size: 45px;
+    font-weight: 600;
+}
+
+
+.ready-to-join-text p {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.ready-to-join-btn {
+    margin: 0 100px;
+    color: white;
+}
+
+.ready-to-join-btn btn {
+    width: 199px;
+    height: 56px;
+    border-radius: 5px;
+    background-color: white;
+}
+
+
+/* Ready to join end from here */
