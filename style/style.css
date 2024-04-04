@@ -221,36 +221,36 @@ body {
 
 
 /* Frequently Asked Questions section start from here */
-.accordion{
+.accordion {
     margin: 10px 90px;
 }
 
-.accordian-heading{
+.accordian-heading {
     text-align: center;
     margin-bottom: 60px;
 }
 
-.accordion-text-description{
+.accordion-text-description {
     color: black;
     text-align: justify;
-   
+
 }
 
 /* Frequently Asked Questions section end from here */
 
 /* Trusted companies section start from here */
-.company-section{
+.company-section {
     margin: 40px;
     padding: 15px;
 }
 
-.company-section h1{
+.company-section h1 {
     text-align: center;
     margin-top: 70px;
     padding: 15px;
 }
 
-.company-img{
+.company-img {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -258,3 +258,48 @@ body {
 }
 
 /* Trusted companies section end from here */
+
+/* Footer section start from here */
+.footer-main {
+    background-color: black;
+    margin-top: 50px;
+}
+
+.footer-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 60px;
+}
+
+.footer-text {
+    color: white;
+
+}
+
+.footer-text h3 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.footer-text p {
+    text-align: center;
+    width: 321px;
+    height: 36px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.footer-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 22px;
+    height: 15px;
+    gap: 20px;
+    color: white;
+}
+
+/* Footer section end from here */
