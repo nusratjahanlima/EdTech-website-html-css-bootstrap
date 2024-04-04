@@ -237,3 +237,24 @@ body {
 }
 
 /* Frequently Asked Questions section end from here */
+
+/* Trusted companies section start from here */
+.company-section{
+    margin: 40px;
+    padding: 15px;
+}
+
+.company-section h1{
+    text-align: center;
+    margin-top: 70px;
+    padding: 15px;
+}
+
+.company-img{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 40px 65px;
+}
+
+/* Trusted companies section end from here */
