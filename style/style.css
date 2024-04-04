@@ -95,6 +95,9 @@ body {
 
 /* Explore The elearning Institute section start here */
 .explore-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 1320px;
     height: 810px;
     margin: 140px auto;
@@ -109,7 +112,7 @@ body {
 .explore-text-section {
     width: 700px;
     height: 546px;
-    margin: 180px 20px;
+    margin: 150px 20px;
     padding: 15px;
     padding: 15px;
 }
@@ -210,6 +213,7 @@ body {
     gap: 18px;
 }
 
+
 .student-button {
     display: flex;
     justify-content: center;
@@ -303,3 +307,102 @@ body {
 }
 
 /* Footer section end from here */
+
+
+
+
+/* Media query responsive section */
+
+@media only screen and (max-width: 640px) {
+    .b-img {
+        width: 335px;
+        height: 300px;
+        object-fit: cover;
+    }
+
+
+    .carousel-text-container {
+        margin-bottom: 5px;
+    }
+
+    .carousel-text-h1 {
+        font-size: 18px;
+        font-weight: 600;
+        text-align: center;
+    }
+
+    .carousel-text-p {
+        font-size: 10px;
+        font-weight: 400;
+        text-align: center;
+    }
+
+    .discover-items-section-1 {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 500px;
+        gap: 30px;
+    }
+
+    .discover-items-section-2 {
+      display: none;
+    }
+
+    .explore-main {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .student-details {
+        flex-direction: column;
+    }
+
+    .company-section{
+        display: none;
+    }
+
+    
+
+}
+
+@media only screen and (min-width: 641px) and (max-width: 900px) {
+    .discover-items-section-1 {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 500px;
+        gap: 30px;
+    }
+
+    .discover-items-section-2 {
+      display: none;
+    }
+
+    .explore-main {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .student-details {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        ;
+    }
+
+    .student-items {
+        flex: 1 0 50%; 
+        /* flex-basis: calc(50% - 10px); */
+    }
+
+    .company-section{
+        display: none;
+    }
+
+   
+
+}
